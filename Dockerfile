@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER John Kidd "jkidd@kiddcorp.com"
+MAINTAINER Brien Sherman "user1@kiddcorp.com"
 RUN apt-get update && apt-get install nginx -y
 RUN echo "Hello from my custom container..." > /var/www/html/index.html
 #ONBUILD
